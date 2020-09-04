@@ -1,6 +1,6 @@
 from flask import Flask, request
 
-app = Flask('bootcamp')
+app = Flask('SMSDictionary')
 
 @app.route('/sms', methods=['GET', 'POST'])
 def sms():
